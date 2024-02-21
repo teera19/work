@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-image: url(https://images.assets-landingi.com/uc/44600c52-fa23-4275-9658-79025d3f5316/bg1.png);
     background-size: cover;
@@ -23,6 +24,7 @@ body {
     display: block;
     height: 60px;
 }
+
 .nav-l {
     margin: 2%;
     margin-right: 10%;
@@ -30,6 +32,7 @@ body {
     display: flex;
     justify-content: end;
 }
+
 .nav-l a {
     padding: 10px;
     box-sizing: border-box;
@@ -45,6 +48,7 @@ body {
     color: #010101;
     border-radius: 5px;
 }
+
 .nav-r img {
     margin-left: 50px;
     margin-top: 15px;
@@ -52,17 +56,19 @@ body {
 }
 
 /* container1 */
-.back-img{
+.back-img {
     position: absolute;
     margin-left: 700px;
     width: 500px;
 }
+
 .body-1-row {
     display: flex;
     flex-direction: row;
     padding: 50px;
 
 }
+
 .body-1-video {
     margin: 50px;
     margin-left: 160px;
@@ -70,6 +76,7 @@ body {
     width: 2000px;
     z-index: 2;
 }
+
 .body-r {
     margin-top: 2%;
     margin-left: 100px;
@@ -83,6 +90,9 @@ body {
 }
 
 .body-r h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
     margin: 20px;
     color: aliceblue;
 }
@@ -90,6 +100,8 @@ body {
 .text-body-r {
     margin: 20px;
     color: aliceblue;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
     font-size: 10px;
 }
 
@@ -106,81 +118,204 @@ body {
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-bottom: 40px
 }
+
 .ab-text-l {
     margin: 20px;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-left: 150px;
-    font-size: 2em;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
+
 .ab-text-r {
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
     margin: 20px;
     margin-top: 90px;
-    margin-left: 200px;
 }
+
 .img-detail {
     margin-top: -50px;
     background-color: #172128;
     background-image: url(https://images.assets-landingi.com/uc/d4771936-33bf-45c8-b2e6-98a7a72c6777/bgedit1.png);
-    background-position: center!important;
-    background-repeat: no-repeat!important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
     background-attachment: scroll;
     background-size: cover;
     position: relative;
     display: block;
 }
+
 .detail-ab {
     color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
+
 .text-ab-detail {
     margin: 10px;
-    margin-top: 90px;
-    margin-left: 350px;
-    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 320px;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
     display: flex;
 }
+
 .text-ab-detail-1 {
     color: #24d1d1;
     width: 528px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
     font-size: 50px;
-    font-weight: 700;
-    line-height: 1.3;
     top: 118.5px;
-    left: 336px;
+    left: 200px;
     height: 65px;
     font-style: normal;
     display: block;
-    margin-left: 480px;
-    
+    margin-left: 450px;
+
 }
-.detail-ab-1{
+
+.detail-ab-1 {
     display: flex;
     flex-direction: row;
 }
-.detail-ab-1-1{
-    background-image: linear-gradient(163deg,rgba(14,14,16,0.85),rgba(0,21,72,0.6));
-    background-size: auto!important;
+
+.detail-ab-1-1 {
+    background-image: linear-gradient(163deg, rgba(14, 14, 16, 0.85), rgba(0, 21, 72, 0.6));
+    background-size: auto !important;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    box-shadow: 0 35px 60px rgba(0,0,0,.3);
+    box-shadow: 0 35px 60px rgba(0, 0, 0, .3);
     height: 423px;
     width: 303px;
     top: 244px;
     left: 132px;
     display: block;
+    margin: -80px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.detail-ab-1-1 h3 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.detail-ab-1-1 p {
+    color: white;
+}
+
+.img-1 {
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 110px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.img-2 {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 110px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.img-3 {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 110px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-ab-1 p {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.detail-ab-2 {
+    background-image: url(https://cdn.lugc.link/ee18b860-a7e2-453e-a1c7-35abdc073f9f/-/format/auto/-/stretch/off/-/resize/x1102/;);
+    background-size: cover;
+}
+
+
+.detail-ab-2-text .img-2 {
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 10px;
+}
+
+.detail-ab-2-text .img-3 {
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -10px;
+}
+
+.detail-ab-2-text .img-4 {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+.detail-ab-2-text h1 {
     margin: 50px;
-    margin-left: 80px;
-}
-.detail-ab-1-1 h3{
+    margin-left: 130px;
     color: white;
+    font-family: "Sriracha", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
 }
-.detail-ab-1-1 p{
+
+.detail-ab-2-text .p-1 {
     color: white;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+
+.detail-ab-2-text .p-2 {
+    color: white;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.detail-ab-2-text .p-3 {
+    color: white;
+    font-family: "Sukhumvit Set", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.text-row {
+    display: flex;
+    flex-direction: row;
 }
