@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://images.assets-landingi.com/uc/44600c52-fa23-4275-9658-79025d3f5316/bg1.png);
+    background-size: cover;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+/* nav */
+.nav {
+    background-image: url(./img/Capture.PNG);
+    display: block;
+    height: 60px;
+}
+.nav-l {
+    margin: 2%;
+    margin-right: 10%;
+    margin-top: -50px;
+    display: flex;
+    justify-content: end;
+}
+.nav-l a {
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+    color: aliceblue;
+    box-shadow: 5 5 5 5 rgba(178, 174, 174, 0.837);
+    transition: box-shadow 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.nav-l a:hover {
+    background-color: aliceblue;
+    color: #010101;
+    border-radius: 5px;
+}
+.nav-r img {
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 50px;
+}
+
+/* container1 */
+.back-img{
+    position: absolute;
+    margin-left: 700px;
+    width: 500px;
+}
+.body-1-row {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+}
+.body-1-video {
+    margin: 50px;
+    margin-left: 160px;
+    margin-top: 10%;
+    width: 2000px;
+    z-index: 2;
+}
+.body-r {
+    margin-top: 2%;
+    margin-left: 100px;
+
+}
+
+.body-r img {
+    margin: 30px;
+    width: 300px;
+    height: 220px;
+}
+
+.body-r h1 {
+    margin: 20px;
+    color: aliceblue;
+}
+
+.text-body-r {
+    margin: 20px;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+/* about */
+
+.ab-text {
+    color: white;
+    background-color: #23333e;
+    background-image: url(https://images.assets-landingi.com/uc/da416efc-8d9d-474a-a2dc-3fa27629a2d1/bg2.crop_390x335_810,0.preview.png);
+    background-position: center left !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 300px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    margin-bottom: 40px
+}
+.ab-text-l {
+    margin: 20px;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-size: 2em;
+}
+.ab-text-r {
+    margin: 20px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.img-detail {
+    margin-top: -50px;
+    background-color: #172128;
+    background-image: url(https://images.assets-landingi.com/uc/d4771936-33bf-45c8-b2e6-98a7a72c6777/bgedit1.png);
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+.detail-ab {
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.text-ab-detail {
+    margin: 10px;
+    margin-top: 90px;
+    margin-left: 350px;
+    font-size: 2rem;
+    display: flex;
+}
+.text-ab-detail-1 {
+    color: #24d1d1;
+    width: 528px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+    top: 118.5px;
+    left: 336px;
+    height: 65px;
+    font-style: normal;
+    display: block;
+    margin-left: 480px;
+    
+}
+.detail-ab-1{
+    display: flex;
+    flex-direction: row;
+}
+.detail-ab-1-1{
+    background-image: linear-gradient(163deg,rgba(14,14,16,0.85),rgba(0,21,72,0.6));
+    background-size: auto!important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 35px 60px rgba(0,0,0,.3);
+    height: 423px;
+    width: 303px;
+    top: 244px;
+    left: 132px;
+    display: block;
+    margin: 50px;
+    margin-left: 80px;
+}
+.detail-ab-1-1 h3{
+    color: white;
+}
+.detail-ab-1-1 p{
+    color: white;
+}
