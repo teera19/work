@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
 body {
     background-image: url(https://images.assets-landingi.com/uc/44600c52-fa23-4275-9658-79025d3f5316/bg1.png);
@@ -25,7 +20,6 @@ body {
 
 /* nav */
 .nav {
-    
     background-image: url(./img/Capture.PNG);
     height: 60px;
     align-items: center;
@@ -369,66 +363,64 @@ body {
 
 }
 
-.card {
-    background: linear-gradient(163deg, #1a1a1a, #000033);
-    box-shadow: 0 35px 60px rgba(0,0,0,.3);
-    border-radius: 10px; /* ปรับขนาดของมุมให้กับการ์ด */
-    color: white; /* สีข้อความ */
-    margin: 10px; /* ระยะห่างระหว่างการ์ด */
-    margin-bottom: 20px; /* ระยะห่างด้านล่างของการ์ด */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .card-body {
+.card-body {
     padding: 20px;
     color: white;
-  }
-  
-  .card-title {
-    color: white; /* กำหนดสีข้อความใน card-title เป็นสีขาว */
-  }
-  
-  .card-text {
-    color: white; /* กำหนดสีข้อความใน card-text เป็นสีขาว */
+}
+
+.card-title {
+    color: white;
+ 
+}
+
+.card-text {
+    color: white;
     text-align: center;
-  }
+}
+
 .btn-primary {
-    background-color: #007bff; /* สีพื้นหลังของปุ่ม */
-    color: #ffffff; /* สีข้อความภายในปุ่ม */
-    border: none; /* ลบเส้นขอบ */
-    padding: 10px 20px; /* ขนาดของ padding */
-    border-radius: 5px; /* ปรับขนาดของมุมของปุ่ม */
-    cursor: pointer; /* เปลี่ยนเป็น icon ชี้ */
+    background-color: #007bff;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
 }
 
 .btn-primary:hover {
-    background-color: #0056b3; /* เปลี่ยนสีพื้นหลังเมื่อเมาส์ไฮไลท์ */
-    color: #ffffff; /* เปลี่ยนสีข้อความเมื่อเมาส์ไฮไลท์ */
-  }
-  .custom-img {
-    width: 100px; /* กำหนดความกว้างของรูปภาพเป็น 63px */
-    margin-bottom: 15px; /* กำหนดระยะห่างของรูปภาพกับข้อความด้านล่าง */
+    background-color: #0056b3;
+ 
+    color: #ffffff;
+
+}
+
+.custom-img {
+    width: 100px;
+
+    margin-bottom: 15px;
+    /* กำหนดระยะห่างของรูปภาพกับข้อความด้านล่าง */
     margin-top: 30px;
-  }
+}
 
 
-  .align-self-center {
+.align-self-center {
     align-self: center;
-  }
+}
 
 
-  .col-lg-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.col-lg-4 {
+    margin: 20px;
+    margin-left: 320px;
 }
 
 .cur{
-    background-image: url(https://images.assets-landingi.com/uc/d2be688c-1495-4236-8f74-b9d4f1b72d7c/bg07.png);
+    background-image: url(https://images.assets-landingi.com/uc/7d227b25-e283-4212-95a0-8768d61ae0d0/Curriculumbox1.png);
     background-position: center!important;
     background-repeat: no-repeat!important;
     background-attachment: scroll;
@@ -439,24 +431,8 @@ body {
     border-bottom-left-radius: initial;
     border-bottom-right-radius: initial;
     display: block;
-}
-.img-container {
-    position: relative;
-    display: inline-block;
-}
 
-.text-overlay {
-    position: absolute;
-    top: 40%; /* ปรับตำแหน่งข้อความให้ขยับขึ้นไปยังตำแหน่งที่ต้องการ */
-    left: 0%; /* จัดตำแหน่งข้อความที่ชิดซ้าย */
-    transform: translate(0, -50%); /* แก้ปัญหาข้อความไม่แสดงตรงกลางภาพ */
-    color: white; /* กำหนดสีข้อความใน card-text เป็นสีขาว */
-    text-align: center; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
-    padding: 0px 20px; /* เพิ่มช่องว่างด้านซ้ายและขวาของข้อความ */
-    width: 100%; /* กำหนดความกว้างของข้อความให้เต็มกว้างของพื้นที่ของ .text-overlay */
-    box-sizing: border-box; /* ให้ padding และ border นับเข้าไปในความกว้างของ .text-overlay */
 }
-
 
 
 
